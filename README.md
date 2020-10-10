@@ -1,4 +1,4 @@
-# clubhub
+# pt_app
 
 ## Project setup
 ```
