@@ -1,6 +1,6 @@
 <template>
 <div>
-    <Navbar/>
+    <Navbar />
     <h1 class="ma-3">Calendar</h1>
 </div>
 </template>
@@ -10,10 +10,12 @@ import Navbar from '../components/Navbar'
 
 export default {
     name: 'Home',
-    components: { Navbar },
+    components: {
+        Navbar
+    },
 
-  data: () => ({
-    //
-  }),
+    data: () => ({
+        //
+    }),
 }
 </script>
