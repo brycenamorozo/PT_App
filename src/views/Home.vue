@@ -49,7 +49,7 @@ export default {
                 },
                 {
                     title: 'Lower Back',
-                    route: '/incomplete',
+                    route: '/lowerback',
                 },
                 {
                     title: 'Hip',
@@ -57,7 +57,7 @@ export default {
                 },
                 {
                     title: 'Upper leg',
-                    route: '/UpperLeg',
+                    route: '/incomplete',
                 },
                 {
                     title: 'Lower leg',

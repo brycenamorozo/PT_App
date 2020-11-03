@@ -6,7 +6,7 @@ import About from '../views/About.vue'
 import Calendar from '../views/Calendar.vue'
 import Arm from '../views/diagnosis/Arm.vue'
 import Incomplete from '../views/diagnosis/Incomplete.vue'
-import UpperLeg from '../views/diagnosis/UpperLeg.vue'
+import LowerBack from '../views/diagnosis/LowerBack.vue'
 import LowerLeg from '../views/diagnosis/LowerLeg.vue'
 
 Vue.use(VueRouter)
@@ -43,9 +43,9 @@ const routes = [
     component: Incomplete
   },
   {
-    path: '/UpperLeg',
-    name: 'UpperLeg',
-    component: UpperLeg
+    path: '/lowerback',
+    name: 'LowerBack',
+    component: LowerBack
   },
   {
     path: '/lowerleg',

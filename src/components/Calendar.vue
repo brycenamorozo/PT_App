@@ -8,7 +8,7 @@
           :value="today"
           :events="events"
           color="primary"
-          type="month"
+          type="week"
         ></v-calendar>
       </v-sheet>
     </v-col>
@@ -17,15 +17,27 @@
 <script>
   export default {
     data: () => ({
-      today: '2020-11-03',
+      today: '2019-01-08',
       events: [
         {
-          name: ' ',
-          start: ' ',
-          end: ' ',
+          name: 'Weekly Meeting',
+          start: '2019-01-07 09:00',
+          end: '2019-01-07 10:00',
+        },
+        {
+          name: `Thomas' Birthday`,
+          start: '2019-01-10',
+        },
+        {
+          name: 'Mash Potatoes',
+          start: '2019-01-09 12:30',
+          end: '2019-01-09 15:30',
         },
       ],
     }),
+    mounted () {
+      this.$refs.calendar.scrollToTime('08:00')
+    },
   }
 </script>
 
