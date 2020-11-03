@@ -8,13 +8,11 @@
 
 <script>
 import Navbar from '../components/Navbar'
-import Calendar from '../components/Calendar'
 
 export default {
-    name: 'Calendar',
+    name: 'Home',
     components: { 
       Navbar,
-      Calendar
    },
 
   data: () => ({
