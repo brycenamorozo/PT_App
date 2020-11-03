@@ -1,8 +1,7 @@
 <template>
   <div>
     <Navbar/>
-    <h1 class="ma-3">This is a calendar page</h1>
-    <Calendar/>
+    <h1 class="ma-3">Calendar</h1>
   </div>
 </template>
 
