@@ -33,7 +33,6 @@ export default {
             items: [{
                     title: 'Neck',
                     route: '/incomplete',
-
                 },
                 {
                     title: 'Arm',
