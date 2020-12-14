@@ -1,8 +1,8 @@
 <template>
-<div>
-    <Navbar />
+  <div>
+    <Navbar/>
     <h1 class="ma-3">Calendar</h1>
-</div>
+  </div>
 </template>
 
 <script>
@@ -10,9 +10,10 @@ import Navbar from '../components/Navbar'
 
 export default {
     name: 'Home',
-    components: {
-        Navbar
-    },
+    
+    components: { 
+      Navbar,
+   },
 
     data: () => ({
         //

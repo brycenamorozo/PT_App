@@ -1,7 +1,21 @@
 <template>
 <div>
-    <Navbar />
-    <h1 class="ma-3">Upper Leg</h1>
+  <Navbar/>
+  <div class="pa-7">
+    <h1>Step 1: Self Diagnosis</h1>
+    <h3 class="mt-3">Select specific area of pain</h3>
+    <v-card class="mt-3" elevation="12" width="256">
+      <v-navigation-drawer floating permanent>
+        <v-list dense rounded>
+          <v-list-item v-for="item in items" :key="item.title" :to="item.route">
+            <v-list-item-content>
+              <v-list-item-title>{{ item.title }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list>
+      </v-navigation-drawer>
+    </v-card>
+  </div>
 </div>
 </template>
 
@@ -10,12 +24,37 @@ import Navbar from '../../components/Navbar'
 
 export default {
     name: 'Home',
-    components: {
-        Navbar
-    },
+    components: { Navbar },
 
-    data: () => ({
-        //
-    }),
+  data() {
+    return {
+      items: [
+        {
+          title: 'Gluteus Maximus',
+          route: '/incomplete',
+        },
+        {
+          title: 'Hamstring',
+          route: '/incomplete',
+        },
+        {
+          title: 'Psoas',
+          route: '/incomplete',
+        },
+        {
+          title: 'Groin',
+          route: '/incomplete',
+        },
+        {
+          title: 'Quads',
+          route: '/incomplete',
+        },
+        {
+          title: 'I\'m not sure',
+          route: '/incomplete',
+        }
+      ],
+    }
+  },
 }
 </script>

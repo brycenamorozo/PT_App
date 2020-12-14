@@ -1,6 +1,6 @@
 <template>
 <div>
-    <Navbar />
+    <Navbar/>
     <div class="pa-7">
         <h1>Step 1: Self Diagnosis</h1>
         <h3 class="mt-3">Select area of pain</h3>
@@ -33,7 +33,6 @@ export default {
             items: [{
                     title: 'Neck',
                     route: '/incomplete',
-
                 },
                 {
                     title: 'Arm',
