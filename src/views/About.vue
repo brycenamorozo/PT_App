@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <Navbar/>
+<div>
+    <Navbar />
     <h1 class="ma-3">This is an about page</h1>
-  </div>
+</div>
 </template>
 
 <script>
@@ -10,10 +10,12 @@ import Navbar from '../components/Navbar'
 
 export default {
     name: 'Home',
-    components: { Navbar },
+    components: {
+        Navbar
+    },
 
-  data: () => ({
-    //
-  }),
+    data: () => ({
+        //
+    }),
 }
 </script>
