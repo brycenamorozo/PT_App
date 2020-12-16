@@ -8,6 +8,12 @@ import Arm from '../views/diagnosis/Arm.vue'
 import Incomplete from '../views/diagnosis/Incomplete.vue'
 import UpperLeg from '../views/diagnosis/UpperLeg.vue'
 import LowerLeg from '../views/diagnosis/LowerLeg.vue'
+import Glutes from '../views/UpperLegExercises/Glutes.vue'
+import Groin from '../views/UpperLegExercises/Groin.vue'
+import Hamstring from '../views/UpperLegExercises/Hamstring.vue'
+import Psoas from '../views/UpperLegExercises/Psoas.vue'
+import Quads from '../views/UpperLegExercises/Quads.vue'
+import UpperLegQ from '../views/UpperLegExercises/UpperLegQ.vue'
 
 Vue.use(VueRouter)
 
@@ -52,6 +58,36 @@ const routes = [
     name: 'LowerLeg',
     component: LowerLeg
   },
+  {
+    path: '/Glutes',
+    name: 'Glutes',
+    component: Glutes
+  },
+  {
+    path: '/Groin',
+    name: 'Groin',
+    component: Groin
+  },
+  {
+    path: '/Hamstring',
+    name: 'Hamstring',
+    component: Hamstring
+  },
+  {
+    path: '/Psoas',
+    name: 'Psoas',
+    component: Psoas
+  },
+  {
+    path: '/Quads',
+    name: 'Quads',
+    component: Quads
+  },
+  {
+    path: '/UpperLegQ',
+    name: 'UpperLegQ',
+    component: UpperLegQ
+  }
 ]
 
 const router = new VueRouter({

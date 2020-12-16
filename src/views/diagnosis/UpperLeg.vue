@@ -40,12 +40,12 @@ export default {
   data() {
     return {
       items: [
-        { title: 'Gluteal muscles', route: '/incomplete', picture: require('../../assets/GlutealMuscles.jpg') },
-        { title: 'Hamstring', route: '/incomplete', picture: require('../../assets/Hamstring.jpg') },
-        { title: 'Psoas', route: '/incomplete', picture: require('../../assets/Psoas.jpg') },
-        { title: 'Groin', route: '/incomplete', picture: require('../../assets/Groin.jpg') },
-        { title: 'Quads', route: '/incomplete', picture: require('../../assets/Quads.jpg') },
-        { title: 'I\'m not sure', route: '/incomplete', picture: require('../../assets/UpperLeg.png') },
+        { title: 'Gluteal muscles', route: '/Glutes', picture: require('../../assets/GlutealMuscles.jpg') },
+        { title: 'Hamstring', route: '/Hamstring', picture: require('../../assets/Hamstring.jpg') },
+        { title: 'Psoas', route: '/Psoas', picture: require('../../assets/Psoas.jpg') },
+        { title: 'Groin', route: '/Groin', picture: require('../../assets/Groin.jpg') },
+        { title: 'Quads', route: '/Quads', picture: require('../../assets/Quads.jpg') },
+        { title: 'I\'m not sure', route: '/UpperLegQ', picture: require('../../assets/UpperLeg.png') },
       ],
     }
   },
