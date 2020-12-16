@@ -4,17 +4,28 @@
   <div class="pa-7">
     <h1>Step 1: Self Diagnosis</h1>
     <h3 class="mt-3">Select specific area of pain</h3>
-    <v-card class="mt-3" elevation="12" width="256">
-      <v-navigation-drawer floating permanent>
-        <v-list dense rounded>
-          <v-list-item v-for="item in items" :key="item.title" :to="item.route">
-            <v-list-item-content>
-              <v-list-item-title>{{ item.title }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
-      </v-navigation-drawer>
-    </v-card>
+    <v-container class="pa-10">
+      <v-layout row wrap>
+        <v-flex xs12 sm6 md4 lg3 xlg2 v-for="item in items" :key="item.title">
+          <v-card  class="text-center ma-3 pt-3 px-3 d-flex flex-column">
+            <v-card-text>
+              <h2>{{ item.title }}</h2>
+            </v-card-text>
+
+            <v-responsive class="pt-4">
+              <v-img :aspect-ratio="7/9"  :src="item.picture"></v-img>
+            </v-responsive>
+
+            <v-card-actions :to="item.route">
+              <v-spacer></v-spacer>
+              <v-btn flat depressed color="white grey--text" :to="item.route">
+                <v-icon large right>mdi-arrow-right</v-icon>
+              </v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-flex> 
+      </v-layout>
+    </v-container>
   </div>
 </div>
 </template>
@@ -29,30 +40,12 @@ export default {
   data() {
     return {
       items: [
-        {
-          title: 'Triceps',
-          route: '/incomplete',
-        },
-        {
-          title: 'Biceps',
-          route: '/incomplete',
-        },
-        {
-          title: 'Deltoid',
-          route: '/incomplete',
-        },
-        {
-          title: 'Supraspinatus',
-          route: '/incomplete',
-        },
-        {
-          title: 'Infraspinatus',
-          route: '/incomplete',
-        },
-        {
-          title: 'I\'m not sure',
-          route: '/incomplete',
-        }
+        { title: 'Biceps', route: '/incomplete', picture: require('../../assets/BicepsBrachii.png') },
+        { title: 'Deltoid', route: '/incomplete', picture: require('../../assets/Deltoid.png') },
+        { title: 'Infraspinatus', route: '/incomplete', picture: require('../../assets/Infraspinatus.png') },
+        { title: 'Supraspinatus', route: '/incomplete', picture: require('../../assets/Surpaspinatus.png') },
+        { title: 'Triceps', route: '/incomplete', picture: require('../../assets/TricepsBrachii.png') },
+        { title: 'I\'m not sure', route: '/incomplete', picture: require('../../assets/Arm.png') },
       ],
     }
   },
