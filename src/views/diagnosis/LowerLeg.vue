@@ -41,7 +41,7 @@ export default {
     return {
       items: [
         { title: 'Achilles tendon', route: '/incomplete', picture: require('../../assets/AchillesTendon.png') },
-        { title: 'Extensor digitorum longus', route: '/incomplete', picture: require('../../assets/ExtensorDigitorumLongus.jpg') },
+        { title: 'EDL', route: '/incomplete', picture: require('../../assets/ExtensorDigitorumLongus.jpg') },
         { title: 'Gastrocnemius', route: '/incomplete', picture: require('../../assets/Gastrocnemius.png') },
         { title: 'Peroneus longus', route: '/incomplete', picture: require('../../assets/PeroniusLongus.jpg') },
         { title: 'Soleus', route: '/incomplete', picture: require('../../assets/Soleus.png') },
