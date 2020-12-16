@@ -8,7 +8,7 @@
 
     <v-spacer></v-spacer>
 
-    <v-navigation-drawer app absolute v-model="drawer" color="blue darken-1">
+    <v-navigation-drawer app absolute v-model="drawer" color="blue darken-1" disable-resize-watcher>
         <v-list>
             <v-list-item>
                 <v-list-title class="title">Physical Therapy App</v-list-title>

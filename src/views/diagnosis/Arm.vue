@@ -6,7 +6,7 @@
     <h3 class="mt-3">Select specific area of pain</h3>
     <v-container class="pa-10">
       <v-layout row wrap>
-        <v-flex xs12 sm6 md4 lg3 xlg2 v-for="item in items" :key="item.title">
+        <v-flex xs6 sm5 md4 lg3 v-for="item in items" :key="item.title">
           <v-card  class="text-center ma-3 pt-3 px-3 d-flex flex-column">
             <v-card-text>
               <h2>{{ item.title }}</h2>
