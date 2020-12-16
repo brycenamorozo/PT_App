@@ -30,7 +30,7 @@ export default {
     return {
       items: [
         {
-          title: 'Gluteus Maximus',
+          title: 'Gluteal muscles',
           route: '/incomplete',
         },
         {
