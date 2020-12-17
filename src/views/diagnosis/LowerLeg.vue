@@ -2,7 +2,7 @@
 <div>
   <Navbar/>
   <div class="pa-7">
-    <h1>Step 1: Self Diagnosis</h1>
+    <h1>Step 2: Specific Muscle</h1>
     <h3 class="mt-3">Select specific area of pain</h3>
     <v-container class="pa-10">
       <v-layout row wrap>

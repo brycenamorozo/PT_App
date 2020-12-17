@@ -2,7 +2,7 @@
 <div>
     <Navbar/>
     <div class="pa-7">
-        <h1>Step 1: Self Diagnosis</h1>
+        <h1>Step 1: General Area</h1>
         <h3 class="mt-3">Select area of pain</h3>
         <v-container class="pa-10">
 
