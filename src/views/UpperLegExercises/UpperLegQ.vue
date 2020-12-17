@@ -13,6 +13,10 @@
             </v-card-text>
 
             <v-responsive class="pt-4">
+              <v-img :src="item.picture" height="250" contain></v-img>
+            </v-responsive>
+
+            <v-responsive class="pt-4">
               <p>{{ item.info }}</p>
             </v-responsive>
 
@@ -42,20 +46,20 @@ export default {
     return {
       items: [
         { title: 'Gluteal muscles', route: '/Glutes', 
-          info: ':)',
+          info: 'Soreness or tightness in the buttocks and/or in the hips when sitting, running, or squatting. ',
           picture: require('../../assets/GlutealMuscles.jpg') },
-        { title: 'Gluteal muscles', route: '/Groin', 
-          info: '',
-          picture: require('../../assets/GlutealMuscles.jpg') },        
-        { title: 'Gluteal muscles', route: '/Hamstring', 
-          info: '',
-          picture: require('../../assets/GlutealMuscles.jpg') },
-        { title: 'Gluteal muscles', route: '/Psoas', 
-          info: '',
-          picture: require('../../assets/GlutealMuscles.jpg') },        
-        { title: 'Gluteal muscles', route: '/Quads', 
-          info: '',
-          picture: require('../../assets/GlutealMuscles.jpg') },  
+        { title: 'Groin', route: '/Groin', 
+          info: 'Pain usually felt in the inner thigh, but located anywhere from just below the hip to the knee. Usually felt when extending your leg far from a standing or sitting position in any direction.',
+          picture: require('../../assets/Groin.jpg') },        
+        { title: 'Hamstring', route: '/Hamstring', 
+          info: 'Pain in the back of the thigh when fully bending or extending your leg. Tendereness or bruising may occur in the back of the thigh as well.',
+          picture: require('../../assets/Hamstring.jpg') },
+        { title: 'Psoas', route: '/Psoas', 
+          info: 'Pain in the front of the hip right near the pelvis. Hurting should occur when walking up stairs, and lifting the knee up to your chest. Soreness may also translate to the inner thigh.',
+          picture: require('../../assets/Psoas.jpg') },        
+        { title: 'Quads', route: '/Quads', 
+          info: 'Pain in the thigh when bending or extending your leg. Sharp pain in the thigh when kicking hard or jumping.',
+          picture: require('../../assets/Quads.jpg') },  
       ],
     }
   },
