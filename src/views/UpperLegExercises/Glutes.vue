@@ -16,8 +16,8 @@
               <v-img :src="item.picture" height="300" contain></v-img>
             </v-responsive>
 
-            <v-responsive class="pt-4">
-              <p>{{ item.info }}</p>
+            <v-responsive class="py-4 px-10">
+              <p v-html="item.info" class="text-justify"></p>
             </v-responsive>
 
           </v-card>
@@ -39,13 +39,19 @@ export default {
     return {
       items: [
         { title: 'Seated Figure-Four Stretch',
-          info: ':)',
+          info: "Also called the seated pigeon, the seated figure-four stretch helps to loosen up your glutes and surrounding muscles. <br/>Step 1: Sit upright in a sturdy chair. Place your ankle with your injured leg on your thigh, just above your knee. Place your hands on your shins. <br/>Step 2: Keeping your spine straight, lean slightly forward to deepen the stretch.<br/>Hold for 20–30 seconds.<br/>Step 3: Return to the starting position. Repeat with the other leg.",
           picture: require('../../assets/SeatedFigureFourStretch.gif') },
-        { title: 'Seated Figure-Four Stretch',
-          info: ':)',
-          picture: require('../../assets/SeatedFigureFourStretch.gif') },  
+        { title: 'Seated Twist',
+          info: 'Step 1: Sit on the ground and stretch your legs out in front of you.<br/>Step 2: Place your arm behind you and bring your injured leg over the other, placing your foot on the floor, near your knee.<br/>Step 3: Position your arm over your knee, with your palm facing outward.<br/>Step 4: Twist to the left or right and use your arm to pull your knee inward causing resistance.<br/>Step 5: Hold this position for 20–30 seconds.<br/>Untwist and repeat on the other side.',
+          picture: require('../../assets/SeatedTwist.gif') },  
       ],
     }
   },
 }
 </script>
+
+<style>
+  .paragraph{
+    white-space: pre;
+  }
+</style>
