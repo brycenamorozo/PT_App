@@ -42,7 +42,7 @@ export default {
     return {
       items: [
         { title: 'Gluteal muscles', route: '/Glutes', 
-          info: '',
+          info: ':)',
           picture: require('../../assets/GlutealMuscles.jpg') },
         { title: 'Gluteal muscles', route: '/Groin', 
           info: '',
