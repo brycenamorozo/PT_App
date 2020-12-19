@@ -45,7 +45,7 @@ export default {
           info: 'Step 1: Sit on the ground and stretch your legs out in front of you.<br/>Step 2: Place your arm behind you and bring your injured leg over the other, placing your foot on the floor, near your knee.<br/>Step 3: Position your arm over your knee, with your palm facing outward.<br/>Step 4: Twist to the left or right and use your arm to pull your knee inward causing resistance.<br/>Step 5: Hold this position for 20–30 seconds.<br/>Untwist and repeat on the other side.',
           picture: require('../../assets/SeatedTwist.gif') },
         { title: 'Seated Glute Stretch',
-          info: 'Step 1: Sit on the floor and extend your legs out in front of you.<br/>Step 2: Keeping your back straight, lift your injured leg and place your ankle on your knee. <br/>Step 3: Lean slightly forward to deepen the stretch.<br/>Hold for 20 seconds',
+          info: 'Step 1: Sit on the floor and extend your legs out in front of you.<br/>Step 2: Keeping your back straight, lift your injured leg and place your ankle on your knee. <br/>Step 3: Lean slightly forward to deepen the stretch.<br/>Hold for 20 seconds.',
           picture: require('../../assets/SeatedGluteStretch.gif') },   
       ],
     }
