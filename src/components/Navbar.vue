@@ -33,13 +33,17 @@ export default {
                     route: '/home'
                 },
                 {
+                    text: 'RICE',
+                    route: '/Rice'
+                },
+                {
                     text: 'About',
                     route: '/about'
                 },
                 {
                     text: 'Calendar',
                     route: '/calendar'
-                }
+                },
             ],
         }
     }
