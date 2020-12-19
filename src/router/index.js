@@ -4,6 +4,7 @@ import Warning from '../views/Warning.vue'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Calendar from '../views/Calendar.vue'
+import Rice from '../views/Rice.vue'
 import Arm from '../views/diagnosis/Arm.vue'
 import Incomplete from '../views/diagnosis/Incomplete.vue'
 import UpperLeg from '../views/diagnosis/UpperLeg.vue'
@@ -37,6 +38,11 @@ const routes = [
     path: '/calendar',
     name: 'Calendar',
     component: Calendar
+  },
+  {
+    path: '/Rice',
+    name: 'Rice',
+    component: Rice
   },
   {
     path: '/arm',
