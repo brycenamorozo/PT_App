@@ -28,17 +28,6 @@
             </v-layout>
 
         </v-container>
-        <!--<v-card class="mt-3" elevation="12" width="256">
-            <v-navigation-drawer floating permanent>
-                <v-list dense rounded>
-                    <v-list-item v-for="item in items" :key="item.title" :to="item.route">
-                        <v-list-item-content>
-                            <v-list-item-title>{{ item.title }}</v-list-item-title>
-                        </v-list-item-content>
-                    </v-list-item>
-                </v-list>
-            </v-navigation-drawer>
-        </v-card>-->
     </div>
 </div>
 </template>
