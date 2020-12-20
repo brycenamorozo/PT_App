@@ -2,9 +2,23 @@
 <div>
   <Navbar/>
   <div class="pa-7">
-    <h1>Gluteal muscles</h1>
+    <v-layout row>
+    <v-layout col>
+      <h1>Gluteal muscles</h1>
+    </v-layout>
+    <v-spacer></v-spacer>
+    <v-spacer></v-spacer>
+    <v-layout col>
+      <v-card-actions href="/rice">
+        <v-btn flat color="white grey--text" href="/rice">
+          <span>R.I.C.E.</span>
+          <v-icon small right>mdi-arrow-right</v-icon>
+        </v-btn>
+      </v-card-actions>
+    </v-layout>
+    </v-layout>
     <h3 class="mt-3">Here are several stretches and exercises to help you recover</h3>
-    <v-container class="pa-10">
+    <v-container class="pa-10">  
       <v-layout column>
         <v-flex v-for="item in items" :key="item.title">
           <v-card  class="text-center ma-3 pt-3 px-3 d-flex flex-column">
